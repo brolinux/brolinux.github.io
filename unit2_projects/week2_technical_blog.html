@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Technical Blog Week 2</title>
+<link href="stylesheets/technical_blog.css" rel="stylesheet" type="text/css" />
+</head>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800italic,800,700italic,400italic' rel='stylesheet' type='text/css'>
+
+<body>
+
+<header>
+<p>Blog Post</p>
+<h1>Technical blog...</h1><br />
+</header>
+
+<article>
+<span class="title">Margin, Border, Padding Explained</span>
+
+<br />
+
+<p>Every HTML page is marked up by elements with corresponding tags. <br />Every element occupies a space on the page. The elements space can be given an outer buffer zone - <span class="ital">a margin</span>. This would specify what distance the designer wishes to set the element apart from its nearest element on the page. Much like a box, a margin can be thought of as having four sides. Top, Right, Bottom and Right. A margin amount can be given to any side independent of another side's amount. <br />The CSS selector can be left as margin and given a numeric value or a value of auto or inherit. Or the selector can target a specific side such as margin-top, margin-left, margin-bottom or margin-right. The values do not have to match and a designer can create a "box" varrying dimensions. <br /> To see the margin seletor in action go <a href="http://www.w3schools.com/css/tryit.asp?filename=trycss_margin_sides" target="_blank">here</a>.</p>
+</p>
+
+<br />
+
+<p>Getting back to the HTML element, its space can be delineated with a line of any given width, color and style, such as solid, dotted, dashed, double, groove, ridge, inset and outset. This border line is invisible by default on every element inside the <body> HTML tag. Much like a box we draw on a page, a border has four sides. Top, Left, Bottom and Right. A border selector can be assigned to all four sides at once, or any of these sides individually. To see the border seletor in action go <a href="http://www.w3schools.com/cssref/tryit.asp?filename=trycss_border-style" target="_blank">here</a>.</p>
+
+
+<br />
+
+<p>The elements space can also be given a padded zone that goes between itself and its inner border, this zone is called - <span class="ital">padding</span>. Padding will effect the size of the overall element on the page, additional space will have to be accounted for it. It's internal to the element whereas margin is external to the element. <br />The CSS selector can be left as padding (targeting all 4 sides) or the selector can target a specific side such as margin-top, margin-left, margin-bottom or margin-right (similar to the way you wrote the margin selectors). The values do not have to match and a designer can create a <span class="ital">box</span> of varrying dimensions. <br /> To see the padding in action go <a href="http://www.w3schools.com/cssref/playit.asp?filename=playcss_margin&preval" target="_blank">here</a>.</p>
+
+
+<br />
+<br />
+
+<p>Below is a model of how it comes together on the page. What part wraps around which and in what order. The element on the page is shown to be given padding between itself and its <span class="ital">bordering</span> edges. Only then comes the margin setting the element away from its sourrounding elements on the page.</p>
+
+<div id="margin">
+    Margin box
+    <div id="border">
+        Border box
+        <div id="padding">
+            Padding box
+            <div id="element">
+                HTML element box
+            </div>
+        </div>
+    </div>
+</div>
+
+<p class="ref">Site reference:www.htmldog.com/guides/css/beginner/margins</p>
+
+</article>
+<footer>
+MMXIV</footer>
+</body>
+</html>
