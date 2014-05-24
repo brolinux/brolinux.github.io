@@ -61,3 +61,4 @@ I then clicked on https://developer.chrome.com/devtools/docs/network?hl=zh-CN. I
 * What is the easiest thing to change to optimize the website?  How many kilobytes of data can be eliminated?
 
 It looks the first place developers need to look at to optimize the page speed is the image size and optimize the images for fast web viewing. If the site had optimized correctly it would reduce its size to 885.9KiB (39% reduction).
+Another thing is to see if the script files the page links to can be placed in one .js file thereby cutting down on the number on server requests.
