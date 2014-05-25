@@ -1,0 +1,113 @@
+/* CSS Document */
+/** * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/) * http://cssreset.com */html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {    margin: 0;	padding: 0;	border: 0;	font-size: 100%;	font: inherit;	vertical-align: baseline;}/* HTML5 display-role reset for older browsers */article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {	display: block;}body {	line-height: 1;}ol, ul {	list-style: none;}blockquote, q {	quotes: none;}blockquote:before, blockquote:after,q:before, q:after {	content: '';	content: none;}table {	border-collapse: collapse;	border-spacing: 0;}
+
+/* Page Styles */
+body{
+background-color:whitesmoke;
+}
+#wrap{
+margin:0 auto;
+width:80%;
+border:3px dashed #45E6C3;
+font-family:Arial, sans-serif;
+background-color:white;
+}
+a {
+text-decoration:none;
+}
+header{
+background-color:#488DF0;
+font-size: 5vw;
+font-weight:bold;
+padding:40px 10px;
+color:white;
+}
+section.sidebar{
+position:relative;
+float:left;
+width:15%;
+padding:5px;
+margin: 10px 40px 0 0;
+height:auto;
+}
+nav{
+background-color:#C6F2DA;
+}
+nav ul{
+width:100%;
+display:inline;
+line-height:64px;
+height:auto;
+font-size: 12px;
+font-size: 1.6vw;
+}
+nav ul li a{
+color:#191970;
+}
+nav ul li a:hover{
+color:white;
+}
+nav ul li a:visited{
+color:black;
+}
+section.sidebar a{
+padding-left:10%;
+}
+section.squares{
+display:inline;
+float:left;
+margin-top:10px;
+}
+ul li.box{
+background-color:#455CE6;
+margin:0px 15px 15px 0px;
+display:inline-block;
+width:240px;
+height:240px;
+}
+ul li.boxF{
+background-color:#455CE6;
+margin:0px 8px 15px 0px;
+display:inline-block;
+width:180px;
+height:180px;
+}
+li.box, li boxF a{
+font-size: 14px;
+display:block;
+color:#488DF0;
+width:inherit;
+}
+li.box a:hover, li.boxF a:hover{
+color:white;
+}
+.line1{
+font-size:16px;
+font-weight:bold;
+display:block;
+padding-left:15px;
+}
+.line1::first-line{
+font-size:28px;
+line-height:50px;
+}
+footer{
+clear:both;
+padding:30px;
+font-size:18px;
+font-weight:bold;
+background-color:#c6f2da;
+text-align:right;
+paddng-right:5%;
+color:#488DF0;
+}
+.pic {
+display: block;
+margin: 0 auto;
+border-radius: 100%;
+border: 4px solid #ff675b;
+width:61%;
+}
+.intro{
+margin-left:5px;
+}
