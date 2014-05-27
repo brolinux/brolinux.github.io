@@ -3,43 +3,43 @@ Define the following commands and describe how they work/what they do.
 
 
 #### add
-<!-- Your defnition here -->
+Bring a file or all the files inside a folder to git's attention
 
 #### branch
-<!-- Your defnition here -->
+Create a local off shoot work environment from the repository of origin and then merge the updates with the origin when completed
 
 #### checkout
-<!-- Your defnition here -->
+Overwrite local changes to files with the files inside of master branch 
 
 #### clone
-<!-- Your defnition here -->
+Download the files from the master branch to the local environment 
 
 #### commit
-<!-- Your defnition here -->
+Instruct Git to save the changes that were made to the file
 
 #### fetch
-<!-- Your defnition here -->
+Download files from master branch
 
 #### log
 <!-- Your defnition here -->
 
 #### merge
-<!-- Your defnition here -->
+Combine local changes with the master branch latest updates
 
 #### pull
-<!-- Your defnition here -->
+Get the newest file versions from the master branch
 
 #### push
-<!-- Your defnition here -->
+Upload local changes and updates to the shared branch
 
 #### reset
-<!-- Your defnition here -->
+Do complete overwrite of local git environment with master branch files
 
 #### rm
-<!-- Your defnition here -->
+Remove a file or directory
 
 #### status
-
+Check whether updates have been staged for uploading and whetherany further untracked files exist
 
 ## Release 4: Git Workflow
 
@@ -47,4 +47,9 @@ Define the following commands and describe how they work/what they do.
 - Fetch changes
 - Commit locally
 
-## Release 5: Reflection
+## Release 5: Errors you encountered
+1. Error
+2. Solution
+3. Cause (explain the error)
+
+## Release 6: Reflection
