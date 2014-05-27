@@ -171,12 +171,14 @@ this.attackXY(49,53);	/ move the player to X co-ordinate 49 and Y co-ordinate 53
 ------END of Pseudo Code----------------------------------------------------------------------
 
 What does this refer to?
-In programming this calls upon the most immediate thing we are dealing with in our code. 
+In JS programming this is calling on whatever object it happens to be inside. Objects come with methods and properties
+and so instead of calling on the object name and saying, for instance, player.moveRight, we can reference the object 
+we are inside with the word this. Once inside of an object JS knows this is referencing the object we are inside of.
+
 What does the () in JS do?
-Looks like () is calling a predefined function that doesn't take any arguments.
+Looks like () is calling a predefined function that hasn't been given any arguments.
+In times the fighter needed to move to specific points the functions took X and Y co-ordinates inside the parentheses.
 Semicolons are there to let the computer know that the command in the fuction has eneded and it needs to go to the next line.
- 
- 
  
  
  
@@ -185,3 +187,16 @@ Semicolons are there to let the computer know that the command in the fuction ha
  
 // Reflection:
 // Write your reflection here.
+
+So far I've leanred that Javascript is an object oriented language. Objects come with properties and methods.
+Methods can include moving and the player in Code Comabt is an object with color properties which I could customize 
+for him. The player also had movments that were predefined in functions such as moveRight() or moveDown(). 
+The player coldn't move diagonally. A function for "movediagonalLeftUp" for example wasn't made and so the player 
+couldn't make that move. 
+Also, so far I've seen arguments given to the fuction. Arguments are specific values that the function uses to
+execute its code.
+
+
+
+
+'
