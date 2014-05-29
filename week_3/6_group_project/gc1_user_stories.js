@@ -30,7 +30,7 @@ If the answer given is correct two pieces of information need to appear on the s
 ********************************
 The 1st test to run through assert is a test called "sum", all three values need to be placed inside their repsective place holders inside assert:
 1. sum needs to calculate a mathematic problem of adding all the numbers inside a set, where the final answer appears in the function assert under the value "test";
-2. sum's worded sentence, sage, is "sum should be a Function." this message needs to run through assert under the term "message";
+2. sum's worded sentence, message, is "sum should be a Function." this message needs to run through assert under the term "message";
 3. This is test number 1. The value 1 needs to appear inside assert under the label "test_number".
 
 The 2nd test assert runs will take the calculations of sum and run it for the values inside the set "oddLengthArray" returning three pieces of information:
