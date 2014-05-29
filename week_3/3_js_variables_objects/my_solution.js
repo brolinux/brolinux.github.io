@@ -1,5 +1,6 @@
 // I paired [by myself, Alan Cohen from my Accountability Group:] on this challenge.
 
+<<<<<<< HEAD
 
 
 
@@ -11,6 +12,8 @@
 // 
 
 
+=======
+>>>>>>> upstream/master
 // __________________________________________
 // Write your code below.
 
@@ -19,12 +22,6 @@ var password = "just open the door";
 var allowedIn = false;
 var members = ["John", "ariel", "alex","Mary"];
 
-
-
-
-
-// __________________________________________
-// Refactored Code: Include a refactored version (or justification of your original code) here. 
 
 
 
@@ -41,7 +38,7 @@ var members = ["John", "ariel", "alex","Mary"];
 
 
 // __________________________________________
-// Driver Test Code:  Do not alter code below this line.
+// Test Code:  Do not alter code below this line.
 
 function assert(test, message, test_number) {
   if (!test) {
