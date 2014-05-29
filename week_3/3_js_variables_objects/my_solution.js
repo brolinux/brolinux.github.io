@@ -1,19 +1,23 @@
-// I paired [by myself, with:] on this challenge.
+// I paired [by myself, Alan Cohen from my Accountability Group:] on this challenge.
 
 
 
 
 // Pseudocode
-// 
-// 
-// 
+//  Run a number of tests to see what of a variable is.
+// If the value assigned to the variable is false, computer gives an Error along with an error message 
+//     predefined in the assert function for that test number.
+// Otherwise the answer was true and so print the word true next to the test number
 // 
 
 
 // __________________________________________
 // Write your code below.
 
-
+var secretNumber = 7;
+var password = "just open the door";
+var allowedIn = false;
+var members = ["John", "ariel", "alex","Mary"];
 
 
 
