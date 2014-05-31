@@ -101,3 +101,17 @@ under the place holder "message";
 
 
 ********************************
+
+Reflection:
+This was very challenging for me, since the code was virtually unreadable for the first 45 minutes I looked at it.
+I tried to understand whatever English word I saw in the code and make sense of it
+
+However, after a very close examination of the code it became apparent that this code was looking to find the results to mathematical equations that appeared inside of a function.
+I had to see what "instanceof" meant, it wasn't immediately apparent that the functions the group would create had also had to run through the assert function at the top.
+
+I was person number 1 and it took me about 4 hours just to write the story. Just coming up with words anyone could understand and at the same time trying to explain it to myself, took many tries and re-edits.
+Looking back now, if I had to do this again, it would take me far less time.
+
+The part of the challenge I enjoyed was at the end when things came together and clicked and fit together.
+The whole challenge was super tedious. As I wrestled with the code I realized what i initially thought was true had to be scrapped and re-written.
+When I looked at what my group did it seemed to be so efficient and succinct. They worked on it so quickly, too. I handed my work on Thursday and by Friday evening the challenge was done. 
