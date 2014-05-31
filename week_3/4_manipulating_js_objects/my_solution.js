@@ -17,6 +17,25 @@ var terah = {
 // __________________________________________
 // Write your code below.
 
+var terah = {
+  name: "Terah",
+  age: 32,
+  height: 66,
+  weight: 125,
+  hairColor: "brown"
+};
+var adam ={
+      name: "Adam"
+    
+};
+
+adam.spouse = terah;
+terah.spouse = adam;
+
+terah.children = {carson: {name: 'Carson'}, carter:{name:'Carter'}, colton:{name:'Colton'}};
+
+
+adam.children=terah.children;
 
 
 
@@ -26,12 +45,13 @@ var terah = {
 
 // __________________________________________
 // Reflection: Use the reflection guidelines
-// 
-// 
-// 
-// 
-// 
-// 
+///I had a very hard time understanding what is an Object and what is a Property. Reading up Mozilla's documentation on JS helped a lot. But ultimatelly, I had to 
+//turn online for help. I have not seen thsi nation of 
+Object.property={Object:{Objectproperty:ObjectPropertyValue}}
+//But when I turned online for help I saw this syntax and it worked.
+//This is a very helpful exercise to see whether Objects and Properties are properly defined in the mind. It pushed me to do some reading not only for Mozilla 
+//but also from the book "Professional JS for Web Development."
+
 
 
 // __________________________________________
