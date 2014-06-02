@@ -44,7 +44,6 @@ function Client (name, age, quote) {
   this.name=name;
   this.age=age;
   this.quote=quote;
-  this.project=project;
 }
 
 
