@@ -188,13 +188,12 @@ Semicolons are there to let the computer know that the command in the fuction ha
 // Reflection:
 // Write your reflection here.
 
-So far I've leanred that Javascript is an object oriented language. Objects come with properties and methods.
-Methods can include moving and the player in Code Comabt is an object with color properties which I could customize 
-for him. The player also had movments that were predefined in functions such as moveRight() or moveDown(). 
-The player coldn't move diagonally. A function for "movediagonalLeftUp" for example wasn't made and so the player 
-couldn't make that move. 
-Also, so far I've seen arguments given to the fuction. Arguments are specific values that the function uses to
-execute its code.
+ Javascript is an object oriented language. Objects come with properties and methods.
+Methods can include moving an Object and the player in Code Comabt is an object. Properties could be  the color the wizard was wearing which 
+I could customize for him. The player had movments that were predefined in functions such as moveRight() or moveDown(). 
+A function for "movediagonalLeftUp" for example wasn't made and so the player couldn't make that move. 
+There were some examples of arguments given to the fuction. Arguments are specific values that the function uses to execute its code.
+Fun game, but at least for level 1 very limited in scope.
 
 
 
