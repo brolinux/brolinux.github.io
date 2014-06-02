@@ -45,7 +45,6 @@ function Client (name, age, quote) {
   this.age=age;
   this.quote=quote;
   this.project=project;
-  this.showQuote=console.log(quote);
 }
 
 
