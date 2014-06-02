@@ -61,7 +61,7 @@ I went to stack overflow and saw that I needed a reset and now it's up to date
 
 3. Cause (explain the error)
 
-I needed to tell Git to pull from mater, I hadn't specified the origin in my original $ got pull --all
+I needed to tell Git to pull from master, I hadn't specified the origin in my original $ got pull --all
 ## Release 6: Reflection
 
 Still confised but I feel the more I use it and the more I go on Stack Overflow I understand a bit more. So far I have git on my main iMac at home and my Linux laptop. Both are synched this account on Github so I get to use it a lot and make errors all the time and fix them.
