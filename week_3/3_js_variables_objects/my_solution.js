@@ -29,9 +29,9 @@ var members = ["John", "ariel", "alex","Mary"];
 
 // __________________________________________
 // Reflection: Use the reflection guidelines to write a reflection here. 
-// 
-// 
-// 
+// Fun challenge.
+// Enjoyed going into this not knowing what to expect and then realizing the answer was given right below the function I was trying to figure out.
+// I paired up on this challenge and it went very smoothly and rather quick once we got the idea that the function would give is the correct answer.
 // 
 // 
 // 
