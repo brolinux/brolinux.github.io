@@ -103,5 +103,5 @@ console.log(adamSandler.quote);
 }
 But that wouldn't have taken the property of the Object, that just creats a function, it was Audrey's idea to add a fourth parameter to the function.
 For the Bonus we added a fifth parameter called "project" and assigned title properties that the actors had worked on. 
-
+Starting to get a better feel for testing the code by asking the computer to validate some the values.
 We worked well together on the challenge. JavaScript is still confusing.
